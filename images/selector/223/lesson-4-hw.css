@@ -1,0 +1,190 @@
+.dom{
+    position: absolute;
+    top: 390px;
+    left: 150px;
+    z-index: 1;
+    }
+.grass{
+    top: 600px;
+    right: 150px;
+    position: absolute;
+    z-index: 2;
+}
+.grass2{
+    top: 600px;
+    right: 210px;
+    position: absolute;
+    z-index: 2;
+}
+.grass3{
+    top: 600px;
+    right: 270px;
+    position: absolute;
+    z-index: 2;
+}
+.grass4{
+    top: 600px;
+    right: 330px;
+    position: absolute;
+    z-index: 2;
+}
+.grass5{
+    top: 600px;
+    right: 390px;
+    position: absolute;
+}
+.grass6{
+    top: 600px;
+    right: 450px;
+    position: absolute;
+}
+.grass7{
+    top: 600px;
+    right: 510px;
+    position: absolute;
+}
+.grass8{
+    top: 600px;
+    right: 570px;
+    position: absolute;
+    z-index: 2;
+}
+.grass9{
+    top: 600px;
+    right: 630px;
+    position: absolute;
+}
+.grass10{
+    top: 600px;
+    right: 700px;
+    position: absolute;
+}
+.grass11{
+    top: 600px;
+    right: 760px;
+    position: absolute;
+}
+.grass12{
+    top: 600px;
+    right: 820px;
+    position: absolute;
+}
+.grass13{
+    top: 600px;
+    right: 880px;
+    position: absolute;
+    z-index: 2;
+}
+.grass14{
+    top: 600px;
+    right: 940px;
+    position: absolute;
+    z-index: 2;
+}
+.grass15{
+    top: 600px;
+    right: 1000px;
+    position: absolute;
+    z-index: 2;
+}
+.grass16{
+    top: 600px;
+    right: 1060px;
+    position: absolute;
+    z-index: 2;
+}
+.grass17{
+    top: 600px;
+    right: 1120px;
+    position: absolute;
+    z-index: 2;
+}
+.grass18{
+    top: 600px;
+    right: 1180px;
+    position: absolute;
+    z-index: 2;
+}
+.sun{
+    top: 200px;
+    right: 1100px;
+    position: absolute;
+}
+.tree1{
+    top: 387px;
+    right: 150px;
+    position: absolute;
+    z-index: 1;
+}
+.clouds{
+    top: 310px;
+    right: 600px;
+    position: absolute;
+}
+.clouds2{
+    top: 350px;
+    right: 800px;
+    position: absolute;
+}
+.family{
+    position: absolute;
+    top:528px;
+    right: 910px;
+    z-index: 2;
+    }
+.plants{
+    position: absolute;
+    top: 600px;
+    right: 610px;
+    }    
+.forest{
+        position: absolute;
+        top: 480px;
+        right: 900px;
+        }      
+.puh{
+    position: absolute;
+        top: 400px;
+        right: 300px;
+        z-index: 2;
+}
+.rn{
+    position: absolute;
+        top: 240px;
+        right: 345px;
+}
+.rp{
+    position: absolute;
+        top: 215px;
+        right: 230px;
+}
+.pig{
+    position: absolute;
+        top: 530px;
+        right: 385px;
+}
+.rag{
+    position: absolute;
+        top: 500px;
+        right: 700px;
+}
+.os{
+    position: absolute;
+        top: 513px;
+        right: 530px;
+}
+
+.button:host{
+    display: inline-block;
+    overflow: hidden;
+    text-align: center;
+    white-space: nowrap;
+}
+
+.marquee{
+    background-color: #12c7df;
+}
+
+marquee {
+    display: inline-block;
+}

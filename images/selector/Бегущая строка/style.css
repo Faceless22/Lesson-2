@@ -1,0 +1,15 @@
+.button:host{
+    display: inline-block;
+    overflow: hidden;
+    text-align: initial;
+    white-space: nowrap;
+}
+
+.marquee{
+    background-color: rgb(255, 204, 0);
+}
+
+marquee {
+    display: inline-block;
+    width: -webkit-fill-available;
+}

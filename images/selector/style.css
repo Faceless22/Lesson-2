@@ -1,0 +1,140 @@
+html{
+    font-family: Calibri;
+}
+
+.wrapper:before{ /*псевдоселектор - добавляет контент в начале тега*/
+    content: 'Menu'; /*обязательный параметр*/
+}
+
+.wrapper:after{ /*псевдоселектор - добавляет контент в конце тега*/
+    content: url('gg.png')
+}
+
+ul li{
+    line:height 2;
+}
+
+ul li:first-child{
+    /*псевдоселектор - выбирает 1 элемент из детей тега*/
+color: red;
+}
+
+ul li:last-child{
+    /*псевдоселектор - выбирает последний элемент из детей тега*/
+    color:blue;
+}
+
+ul li:nth-child(5){
+    /*функция в которую передается целое значение, либо выражение*/
+    color: forestgreen;
+}
+
+ul li:nth-child(odd){
+    /*нечетные*/
+    color: rosybrown;
+}
+
+ul li:nth-child(even){
+    /*четные*/
+    color: darkcyan;
+}
+
+ul li:nth-child(5n){
+    /*каждый 5*/
+    color: tomato;
+}
+
+ul li:nth-child(5n + 1){
+    /*каждый 5 + 1*/
+    color: tomato;
+}
+
+ul li:nth-child(5n + 1), ul li:nth-child(5n){
+    /*каждый 5 + 1*/
+    color: tomato;
+}
+
+.descr, .descr2{
+font-size: 20px;
+color: red
+}
+
+.descr{
+    font-size: 20px;
+    text-decoration: underline; /*подчеркивание*/
+    font-family: Arial;
+    font-weight: 700;
+    }
+
+.button{
+    text-decoration: none;
+    border: 1px solid black; /* 
+    Граница элемента
+    Форма записи border: ширина линии \ форма линии \ цвет*/
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 10px; /*скругление углов*/
+    background: firebrick;
+    color: white;
+}
+
+.button:hover{ /*событие - наведение на элемент*/
+    opacity: 0.7; /*прозрачность*/
+}
+
+.button:active{ /*событие - нажатие на элемент*/
+   border: 3px solid black; /*прозрачность*/
+}
+
+.button:first-letter{ /*выбирает 1 букву в тексте*/
+    font-size: 30px;
+    font-weight: 700; /*Жирность*/
+}
+
+.wrapper:focus-within{ /*событие - при фокусе элемента внутри блока применяет стили для этого блока*/
+    background: #800080;
+}
+
+.button:last-of-type{
+    background: rgb(0, 0, 0);
+    opacity: 4;
+    color: rgb(201, 130, 130);
+}
+
+.button:first-of-type{
+    padding: 0 30px;
+    height: 80px;
+    line-height: 80px;
+    vertical-align: top;
+}
+
+.button:first-of-type::first-letter{
+    font-size: inherit;
+}
+
+.box{
+    padding: 30px!important;
+}
+
+#box{
+    padding: 15px;
+}
+
+/*
+* 0
+li 1
+li:first-letter 2
+ul li 2
+
+*/
+
+.position{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.pos-wrap{
+    height: 500px;
+    width: 500px
+}
